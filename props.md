@@ -3,20 +3,26 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+<!-- properties passed down from a parent component -->
 
 2.  How do you pass props from a parent to a child?
+<!-- by adding it to the element tag in the parent item's render -->
 
 3.  How do you access props from a class based child component?
+<!-- using the props keyword in the constructor or function of the child -->
 
 4.  How do you access props from a functional component?
+<!-- its passed in as a parameter in the child -->
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+<!-- either use .bind in the constructor or make the function an arrow function -->
 
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group
 
 6.  What's happening in this component?
+<!--  -->
 
 ```jsx
 import React, { Component } from "react";
@@ -64,3 +70,4 @@ Try these on your own, but work together if you start to get stuck.
 Discuss these questions as a group
 
 8.  In the Queue component above, why are we holding state in the Queue component instead of Mentor or Student?
+<!-- would be more performant, to have the state in the component that is using it. -->
